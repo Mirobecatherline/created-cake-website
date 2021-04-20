@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8"><!--specifies characer encoding for the html document->
+    <meta name="viewpoint" content="width=device-width,initial-scale1.0"><!-it sets the viewpoint tomake your website look good on all devices
+    the first part sets the width of the page to follow the sceen width of the device ,the second part sets theinitial zoom level when the page is first loaded-->
+    <title>CakesAndBakes</title>
+    <link type="text/css"rel="stylesheet" href="cake.css">
+  </head>
+  <body>
+    <!--section tag defines the sections of document such as chapters headers and footers
+  for styling purposes only we can used div -->
+  <header>
+    <a href="#" class="logo">cake<span>.</span></a>
+    <div class="menutoggle" onclick="togglemenu();"></div>
+    <ul class="navigation">
+      <li><a href="#banner">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#price">Prices</a></li>
+      <li> <a href="#testimony">Testimonials</a> </li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </header>
+  <section  class="banner"id="banner">
+    <div class="content">
+      <h2>Mouth watering cakes</h2>
+      <p>Home for the sweetest cakes for all accasions at affordable prices </p>
+      <a href="#" class="offer">our offers</a><!-- this attribute creats hyperlink to webpages files ,email adreeses location in the same file  etc-->
+    </div>
+  </section>
+<section class="about"id="about">
+  <div class="row">
+    <div class="col">
+      <h2 class="title"><span>A</span>bout Us</h2>
+      <p>This company was founded in the year 2016 under the leadership of Catherine Mirobe.
+        It has branches in Kisii and Juja.It has maintained to be one of the best pastry shop in kenya .
+        The bakery has maintained its good customer service by offering home delivery services of high end quality cakes.
+        <br> <br>The bakery is opening its braches all over the contry to reach all customers .Its share holders are spread throught the wold.
+        The company offers both bakery services and catering services in all kids of events.
+        </p>
+    </div>
+    <div class="col">
+    <div class="imgbox">
+      <img src="cake17.jpeg">
+    </div>
+    </div>
+  </div>
+</section>
+<section class="price" id="price">
+  <div class="title2">
+    <h2 class="pricetitle">Our <span>P</span>rices</h2>
+
+  </div>
+  <div class="typesofcake">
+    <div class="box">
+      <div class="imgbox">
+        <img src="cake1.jpg">
+      </div>
+      <div class="text">
+        <h3>Black forest at <span>1200 per kg</span> </h3>
+      </div>
+    </div>
+    <div class="box">
+      <div class="imgbox">
+        <img src="cake2.jpg">
+      </div>
+      <div class="text">
+        <h3>fruit cake at <span>1500 per kg </span> </h3>
+      </div>
+    </div>
+    <div class="box">
+      <div class="imgbox">
+        <img src="cake3.jpg">
+      </div>
+      <div class="text">
+        <h3>Red velvet cake topped with fruits cake at <span>1700 per kg</span> </h3>
+      </div>
+    </div>
+    <div class="box">
+      <div class="imgbox">
+        <img src="cake4.jpg">
+      </div>
+      <div class="text">
+        <h3>vanillah cake at <span>1000 per kg</span> </h3>
+      </div>
+    </div>
+  </div>
+  <div class="title3">
+    <a href="#"class="btn">view all</a>
+  </div>
+</section>
+<section class="testimony" id="testimony">
+<div class="title4 white">
+  <h2 class="titletext1 ">Feedback <span>B</span>lock</h2>
+</div>
+<div class="content">
+  <div class="box">
+    <div class="imgbox">
+      <img src="cake7.jpeg">
+    </div>
+  <div class="text">
+    <p>The cake was fantastic and the service was on point .
+      I wish to visit the place again</p>
+      <h3>catherine form kisii</h3>
+  </div>
+  </div>
+  <div class="box">
+    <div class="imgbox">
+      <img src="cake8.jpeg">
+    </div>
+  <div class="text">
+    <p>I loved the cake.The service wasw good .
+      I wish to visit the place again</p>
+      <h3>john form kisii</h3>
+  </div>
+  </div>
+  <div class="box">
+    <div class="imgbox">
+      <img src="cake9.jpeg">
+    </div>
+  <div class="text">
+    <p>The cake was fantastic and the service was great .
+      I wish to visit the place again</p>
+      <h3>sharon form juja</h3>
+  </div>
+  </div>
+</div>
+</section>
+
+  <section class="contact" id="contact">
+    <div class="title5">
+      <h2 class="titletext2"><span>C</span>ontact <span>U</span>s</h2>
+    </div>
+
+    <div class="content">
+      <div class="contactinfo">
+        <h3>Contact Info</h3>
+        <div class="contactinfobox">
+          <div class="box">
+            <div class="icon"></div>
+            <div class="text">
+              <h3>Adress</h3>
+              <p>4020 sunrise road ,<br>juja,kiambu <br>40200  </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"></div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>0721969149 </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>catemirobe@gmail.com </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form  action="https://formspree.io/f/mvodgbvk" method="POST" id="my-form">
+
+    <div class="contactform">
+      <h3>Send Message</h3>
+      <div class="inputbox">
+        <input type="text" placeholder="Name" name="Name">
+      </div>
+      <div class="inputbox">
+        <input type="text" placeholder="Email or Telephone number" name="text">
+      </div>
+      <div class="inputbox">
+        <textarea placeholder="Message describing your cake order and place of delivery" name="message"></textarea>
+      </div>
+      <div class="inputbox">
+        <button type="submit">SEND  </button>
+      </div>
+    </div>
+  </form>
+    <div id="status" >Success!</div>
+</section>
+<div class="copyrighttext">
+  <p>Copyright 2021 cakes and bakes. All right Reserved</p>
+</div>
+  <script type="text/javascript">
+    window.addEventListener('scroll',function(){
+      const header=document.querySelector('header');
+      header.classList.toggle("sticky",window.scrollY,0);
+    });
+    function togglemenu() {
+      const menutoggle=document.querySelector('.menutoggle');
+      const navigation=document.querySelector('.navigation');
+      menutoggle.classList.toggle('active');
+      navigation.classList.toggle('active');
+    }
+  </script>
+  <script src="cake.js">  </script>
+  </body>
+</html>

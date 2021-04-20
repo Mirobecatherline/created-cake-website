@@ -1,0 +1,581 @@
+*/*this affects the whole page*/
+{
+  margin:10;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+
+  scroll-behavior: smooth;
+}
+p
+{
+font-weight: 300;
+color: #111;
+}
+body
+{
+  min-height: 1000px;
+}
+.banner
+{
+  position: relative;
+  width: 100%;
+ min-height: 100vh;
+  display: flex;/*makes the display flexible hence can shrink and expand*/
+  justify-content: center;
+  align-items: center;
+  background: url(cake18.jpeg);
+  background-size: cover;
+}
+.banner .content
+{
+  max-width: 900px;
+  text-align: center;
+}
+.banner .content h2
+{
+  font-size: 5em;
+  color: #fff;
+}
+.banner .content p
+{
+  font-size: 2em;
+  color:#fff;
+}
+.offer
+{
+  font-size: 1.5em;
+  color:#fff;
+  background:#ff0157;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.offer:hover
+{
+letter-spacing: 6px;
+
+}
+header
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 80%;
+padding: 10px 20px;
+z-index: 10000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.5s;
+}
+header.sticky
+{
+  background: #fff;
+  padding: 10px 200px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+header .logo
+{
+color: #fff;/*white*/
+font-weight: 700;
+font-size: 3em;
+text-decoration: none;
+display: inline-block;
+padding: 10px 30px;
+background:#111;
+}
+header.sticky .logo
+{
+  color: #fff;
+}
+header .logo span
+{
+color: #ff0157;
+}
+header .navigation
+{
+  position: relative;
+  display: flex;
+
+}
+header .navigation li
+{
+
+  list-style: none;
+  margin-left: 30px;
+
+}
+header .navigation li a
+{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.2em;
+
+}
+header.sticky .navigation li a
+{
+  color: #111;
+}
+header .navigation li a:hover
+
+{
+  letter-spacing: 4px;
+  color:#ff0157;
+}
+section
+{
+padding: 50px;
+font-family: fantasy;
+}
+.row
+{
+position: relative;
+width: 100%;
+display: flex;
+justify-content: space-between;
+/*background-image: url(cake2.jpg);
+background-color: rgba(1, 1, 1, 0.1);*/
+
+}
+.row .col
+{
+  position: relative;
+  width: 48%
+}
+.title
+{
+  color:#111;
+  font-size: 2em;
+  font-weight: 300;
+}
+.title span
+{
+  color:#ff0157;
+  font-weight: 700;
+  font-size: 1.5em
+}
+.row .col .imgbox
+{
+  position: relative;
+  width: 100%;
+  /*min-height: 400px;*/
+  height: 100%
+}
+.row .col p
+{
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.row .col .imgbox img
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ object-fit: contain;
+}
+.title2
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title2 .pricetitle span
+{
+  font-size: 1.5em;
+  color:#ff0157;
+  font-weight: 800;
+}
+
+.price .typesofcake
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.price .typesofcake .box
+{
+  width: 340px;
+  margin: 20px;
+  border: 15px solid #fff;
+  box-shadow: 0 5px 35px rgba(0,0,0,0.8)
+
+}
+.price .typesofcake .box .imgbox
+{
+  position: relative;
+  width: 100%;
+  height: 300px;
+
+}
+.price .typesofcake .box .imgbox img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+height: 100%;
+object-fit: contain;
+}
+.price .typesofcake .box .text
+{
+  padding: 15px 0 5px ;
+}
+.price .typesofcake .box .text h3
+{
+  font-weight: 400;
+  color: #111;
+
+}
+.price .typesofcake .box .text h3 span
+{
+  color: #ff0157;
+  font-family: cursive;
+  font-weight: 500;
+  font-style: italic;
+}
+.title3
+{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.title3 .btn
+{
+  font-size: 1.5em;
+  color:#fff;
+  background:#ff0157;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+
+}
+.title3 .btn:hover
+{
+  letter-spacing: 6px;
+}
+.title4
+{
+  color:#111;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  justify-content: center;
+}
+ .titletext1 span
+{
+  color:#ff0157;
+  font-weight: 700;
+  font-size: 1.5em
+}
+.testimony
+{
+  background: url(cake6.jpeg);
+  background-size: contain;
+}
+.white .titletext1,
+.white p
+{
+  color: #fff;
+}
+ .testimony .content
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 40px;
+
+}
+ .testimony .content .box
+ {
+   width:300px;
+   margin: 10px;
+   padding: 40px;
+   background: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+.testimony .content .box .imgbox
+{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+ overflow: hidden;
+}
+.testimony .content .box .imgbox img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.testimony .content .box .text
+{
+  text-align: center;
+}
+.testimony .content .box .text p
+{
+  color: #666;
+  font-style: italic;
+}
+.testimony .content .box .text h3
+{
+  margin-top: 20px;
+  color:#111;
+  font-size: 1em;
+  color: #ff0157;
+  font-weight: 600;
+
+}
+.contact .title5
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title5 .titletext2
+{
+  font-size: 2em;
+}
+.title5 .titletext2 span
+{
+  color:#ff0157;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.contactform
+{
+  padding: 75px 50px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.9);
+  max-width: 500px;
+  margin-top: 50px;
+
+}
+.contact .content
+{
+  font-size: 1.3em;
+}
+.contactform h3
+{
+  color: #111;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.contactform .inputbox
+{
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea
+{
+  width: 100%;
+  border: 2px solid #555;
+  padding: 10px;
+  color: #111;
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+  resize: none;
+}
+.contactform .inputbox button[type="submit"]
+{
+  font-size: 2em;
+  color: #fff;
+  background: #ff0157;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  max-width: 100px;
+  font-weight:500;
+  border: none;
+  cursor: pointer;
+  padding: 3px 30px;
+  
+}
+.contactform .inputbox button[type="submit"]:hover
+{
+  background-color: #111;
+}
+#status
+{
+  width: 90%;
+  max-width: 500px;
+  padding: 10px;
+  margin-top: 40px;
+  font-size: 1.5em;
+  text-align: center;
+  border-radius: 8px;
+}
+#status.success
+{
+  background-color: rgb(211,250,155);
+  animation: status 4s ease forwards;
+}
+#status.error
+{
+  background-color: rgb(250, 100, 92);
+  color: white;
+  animation: status 4s ease forwards;
+
+}
+@keyframes status{
+ 0%{
+  opacity: 1;
+  pointer-events: all;
+}
+ 90% {
+  opacity: 1;
+  pointer-events: all;
+
+}
+ 100%{
+   opacity: 0;
+   pointer-events: none;
+
+ }
+}
+
+.copyrighttext
+{
+  padding: 8px 40px;
+  border-top: 2px solid rgba(0,0,0,0.2);
+  text-align: center;
+}
+.copyrighttext p
+{
+  color: #333;
+  font-weight: 200;
+  font-size: 1.2em;
+}
+@media (max-width: 991px)
+ {
+   header,
+   header.sticky
+   {
+   padding: 10px 80px;
+ }
+ header .navigation
+ {
+   display: none;
+ }
+ header .navigation.active
+ {
+   width: 100%;
+   height: calc(100%-68px);
+   position:fixed;
+   top: 68px;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: #fff;
+ }
+ header .navigation li
+ {
+   margin-left: 0;
+ }
+ header .navigation li a
+ {
+   text-decoration: none;
+   color: #111;
+   font-size: 1.6em;
+   font-weight: 300;
+
+ }
+ .menutoggle
+ {
+   position: relative;
+   width: 40px;
+   height: 40px;
+   background: url(cake14.png);
+   background-size: 30px;
+   background-repeat: no-repeat;
+   background-position: center;
+   cursor: pointer;
+ }
+.menutoggle.active
+{
+  background: url(cake15.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+header.sticky .menutoggle
+{
+  filter:invert(1);
+}
+.banner .content h2
+{
+  font-size: 3em;
+  color: #fff;
+}
+.row
+{
+  flex-direction: column;
+}
+.row .col
+{
+  position: relative;
+  width: 100%;
+}
+.row .col .imgbox
+{
+  width: 350px;
+  margin: 20px;
+  border: 15px solid #fff;
+  box-shadow: 0 5px 35px rgba(0,0,0,0.8)
+}
+}
+@@media (max-width:480px)
+{
+.banner .contenth h2
+{
+  font-size: 2.2em;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
